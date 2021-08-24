@@ -1,0 +1,42 @@
+body{
+    background-color:azure;
+    opacity:0.8;
+}
+#value{
+    text-align:center;
+    font-size:70px;
+    font-family:'Bradley Hand', cursive;
+    font-weight:700;
+}
+.conatiner{
+    margin-top:80px;
+    text-align:center;
+}
+h1{
+    font-size:60px;
+    font-family: 'Bradley Hand', cursive;
+}
+.button-conatiner{
+    margin-top:50px;
+}
+.btn{
+    padding:7px 7px 7px 7px;
+    border-radius:9px;
+    outline:none;
+    color:black;
+    background-color:white;
+    font-weight:600;
+    font-family: 'Bradley Hand', cursive;
+    transition:transform 0.5s ease;
+    animation-delay:3s;
+}
+.footer_text{
+    text-align: center;
+    font-family: 'Bradley Hand', cursive;
+    margin-top:130px;
+}
+.btn:hover{
+    color:azure;
+    background-color:black;
+    transform:scale(1.001);
+}
